@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+         // 변환할 javascript 버전
+        "target": "ES2015",
+        "sourceMap": true
+    },
+     // 변환시킬 파일
+    "include": ["index.ts"],
+    // 변환시키지 않을 파일
+    "exclude": ["node_modules"] 
+}
