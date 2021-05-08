@@ -14,6 +14,7 @@ const hello = (person:Human) : string=>{
     return `Hi ${person.name}, Info : { age : ${person.age} / gender : ${person.gender} }`
 }
 
-console.log(hello(person))
+console.log("***** Interface.ts *****")
+console.log(`Interface : ${hello(person)}\n`)
 
-export{}
+export{person, hello}

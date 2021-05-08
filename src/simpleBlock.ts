@@ -82,6 +82,7 @@ const addInitBlock = (initBlock:Block):void=>{
   console.log(`Add InitBlock : ${initBlock.getBlockInfo()}`)
 }
 
+console.log(`***** simpleBlock.ts *****`)
 createInitBlock("It is InitBlock")
 createNewBlock("First Block")
 createNewBlock("Second Block")
@@ -89,4 +90,4 @@ createNewBlock("Third Block")
 
 console.log(getBlockChain())
 
-export{}
+export{createInitBlock, createNewBlock, blockChain}

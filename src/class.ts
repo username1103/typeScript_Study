@@ -17,7 +17,7 @@ const person = new Human("myeongil", 26, "male")
 const hello = (person:Human) : string=>{
     return `Hi ${person.name}, Info : { age : ${person.age} / gender : ${person.gender} }`
 }
+console.log("***** Class.ts *****")
+console.log(`Class : ${hello(person)}\n`)
 
-console.log(hello(person))
-
-export{}
+export{person, hello}
