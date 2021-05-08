@@ -3,10 +3,12 @@
         "module": "commonjs",
          // 변환할 javascript 버전
         "target": "ES2015",
-        "sourceMap": true
+        "sourceMap": true,
+        // 변환된 javascript 파일 저장 경로
+        "outDir": "dist"
     },
      // 변환시킬 파일
-    "include": ["index.ts"],
+    "include": ["src/**/*"],
     // 변환시키지 않을 파일
     "exclude": ["node_modules"] 
 }
